@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    margin: 9px;
+    border: 3px solid gray;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Yeon Sung", system-ui;
+
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+.rightNav {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 88%;
+    border: 3px solid white;
+    border-radius: 34px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 37px;
+}
+.text-bigg{
+    font-size: 37px;
+     font-family: "Dancing Script", cursive;
+    font-weight: bold; 
+}
+@keyframes colorChange {
+    0% { color: white; }
+    15% { color: yellow; }
+    30% { color: blue; }
+    45% { color: orange; }
+    60% { color: red; }
+    75% { color: rgb(9, 237, 203); }
+    90% { color: rgb(40, 237, 9); }
+    100% { color: violet; }
+  }
+  
+  .text-bigg {
+    font-weight: bold;
+    animation: colorChange 10s infinite;
+  }
+
+.text-small {
+    font-size: 15px;
+    font-family: "Overlock SC", sans-serif;
+}
+
+.btn {
+    padding: 8px 14px;
+    margin: 5px 3px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.btn:hover {
+    color: yellow;
+    border: 3px solid black;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 17px;
+    background: none;
+}
+
+.btn-dark:hover {
+    color: blue;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.section {
+    /* height: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 90px;
+}
+
+.imgFluid {
+    /* height: 50%; */
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 52px;
+    display: block;
+}
+
+.thumbnail {
+    padding-right: 51px;
+    width: 148%;
+    margin-top: 64px;
+}
+
+.thumbnail-left {
+    padding-left: 51px;
+    margin-top: 64px;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    background-color: #eeeae7;
+    height: 112vh;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-family: cursive;
+    font-size: 34px;
+}
+
+.form {
+    max-width: 62%;
+    margin: 6px auto;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 5px 3px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px;
+    font-family: "Yeon Sung", system-ui;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
