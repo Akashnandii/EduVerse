@@ -1,4 +1,5 @@
 This is a dami Educational webpage "EduVerse"
+
 Header (Navbar):
 
 The website includes a navbar with a logo, navigation links (Home, About, Services, and Contact Us), and a search bar with a "Search" button. The burger icon (three horizontal lines) suggests a responsive design for mobile devices.
